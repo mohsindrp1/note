@@ -1,0 +1,96 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+    color: #333;
+    transition: background 0.3s, color 0.3s;
+  }
+  
+  body.dark {
+    background-color: #121212;
+    color: white;
+  }
+  
+  /* Title Styling */
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #007BFF; /* Default color for light mode */
+  }
+  
+  body.dark h1 {
+    color: #FFD700; /* Gold color for dark mode */
+  }
+  
+  /* Container Styling */
+  .container {
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  body.dark .container {
+    background: #1e1e1e;
+  }
+  
+  /* Input and Textarea Styling */
+  input, textarea {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Button Styling */
+  button {
+    margin: 5px 5px 15px 0;
+    padding: 10px 20px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Notes Styling */
+  .note {
+    background: #eee;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    color: #333; /* Default text color */
+  }
+  
+  body.dark .note {
+    background: #333;
+    color: white; /* Text color for dark mode */
+  }
+  
+  /* Note Title Styling */
+  .note-title {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #333; /* Default color for note title in light mode */
+  }
+  
+  body.dark .note-title {
+    color: #FFD700; /* Gold color for note title in dark mode */
+  }
+  
+  /* Success message styling */
+  #message {
+    margin-top: 10px;
+    color: green;
+    font-weight: bold;
+  }
+  
